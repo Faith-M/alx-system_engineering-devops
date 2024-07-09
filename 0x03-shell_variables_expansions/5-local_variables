@@ -1,2 +1,2 @@
 #!/bin/bash
-Set
+(set -o posix ; set) && printenv && declare -F
